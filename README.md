@@ -66,7 +66,7 @@ curl -d '{"id":0,"jsonrpc":"2.0","method":"eth_getBlockByNumber","params":["late
   -H "Content-Type: application/json" http://localhost:8545
 ```
 
-Note: Some L1 nodes (e.g. Erigon) do not support fetching storage proofs. You can work around this by specifying `--l1.trustrpc` when starting op-node (add it in `op-node-entrypoint` and rebuild the docker image with `docker compose build`.) Do not do this unless you fully trust the L1 node provider.
+Note: Some L1 nodes (e.g. Erigon) do not support fetching storage proofs. You can work around this by specifying `--l1.trustrpc` when starting op-node (add it in `op-node-entrypoint` and rebuild the docker image with `docker compose build`.). Do not do this unless you fully trust the L1 node provider.
 
 
 #### Persisting Data
